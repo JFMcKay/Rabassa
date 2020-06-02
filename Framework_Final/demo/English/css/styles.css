@@ -1004,6 +1004,10 @@ img {
   margin-left: 15px;
 }
 
+.attention {
+  background: #eeb436;
+}
+
 .image-normal {
   width: 100%;
   height: auto;
