@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../css/styles.css" />
+  <script src="https://kit.fontawesome.com/695a98c779.js" crossorigin="anonymous"></script>
   <title>한국어 라바사</title>
 </head>
 
@@ -16,13 +17,13 @@
         <p>어떤 언어로든 사용한 프레임워크</p>
       </div>
 
-      <input type="checkbox" id="nav-toggle" class="네비-토글" />
+      <input type="checkbox" id="네비-토글" class="네비-토글" />
       <nav>
         <ul>
           <ul>
-            <li class="link"><a href="../../../../English/pages/eng-main.html">English</a></li>
+            <li class="link"><a href="../../English/pages/eng-main.html">English</a></li>
             <li class="link"><a href="#">Espanol</a></li>
-            <li class="link"><a href="../../../../Russian/pages/rus-main.html">Pусский</a></li>
+            <li class="link"><a href="../../Russian/pages/rus-main.html">Pусский</a></li>
             <li class="link"><a href="../kor-main.html">한국어</a></li>
           </ul>
         </ul>
@@ -48,7 +49,7 @@
               기본화</span></a>
         </li>
         <li class="사이드바-아이템">
-          <a href="./kor-text.html"><span class="사이드바-헤드라인">문자 요소들</span><span class="사이드바-설명">헤딩, 문장,
+          <a href="kor-text.html"><span class="사이드바-헤드라인">문자 요소들</span><span class="사이드바-설명">헤딩, 문장,
               등.</span></a>
         </li>
         <li class="사이드바-아이템">
@@ -60,7 +61,7 @@
               제출.</span></a>
         </li>
         <li class="사이드바-아이템">
-          <a href="/pages/eng-images.html"><span class="사이드바-헤드라인">미디어</span><span class="사이드바-설명">이미지,비디오,
+          <a href="#"><span class="사이드바-헤드라인">미디어</span><span class="사이드바-설명">이미지,비디오,
               등.</span></a>
         </li>
         <li class="사이드바-아이템">
@@ -100,147 +101,58 @@
         </li>
       </ul>
     </nav>
-    <div class="column-2">
+    <div class="column-3">
+      <h3>슬라이스 쇼 이미지</h3>
       <table class="table-03">
         <tr>
           <th>
-            <pre>.헤더-빅 </pre>
+            <h2>
+              간단한 슬라이드 쇼 이미지를 당신의 폴더에 구현
+            </h2>
+            <div class="설명">
+              &lt;div class=&quot;캐러셀컨테이너r&quot;&gt;<br />
+              &lt;button class=&quot;이전-이미지&quot;&gt;<br />
+              &lt;i class=&quot;fas fa-angle-left&quot;&gt;&lt;/i&gt;<br />
+              &lt;/button&gt;<br />
+              &lt;button class=&quot;넥스트-이미지&quot;&gt;<br />
+              &lt;i class=&quot;fas fa-angle-right&quot;&gt;&lt;/i&gt;<br />
+              &lt;/button&gt;<br />
+              &lt;div class=&quot;캐러셀-사이드&quot;&gt;<br />
+              &lt;img src=&quot;../images/01.jpg&quot; alt=&quot;image&quot;
+              /&gt;<br />
+              &lt;img src=&quot;../images/02.jpg&quot; alt=&quot;image&quot;
+              /&gt;<br />
+              &lt;img src=&quot;../images/03.jpg&quot; alt=&quot;image&quot;
+              /&gt;<br />
+              &lt;img src=&quot;../images/04.jpg&quot; alt=&quot;image&quot;
+              /&gt;<br />
+              &lt;/div&gt;<br />
+              &lt;/div&gt;
+            </div>
           </th>
         </tr>
         <tr>
           <th>
-            <h1 class="헤더-빅">빅 헤더</h1>
+            <div class="carousel-container">
+              <button class="previous-image">
+                <i class="fas fa-angle-left"></i>
+              </button>
+              <button class="next-image">
+                <i class="fas fa-angle-right"></i>
+              </button>
+              <div class="carousel-slide">
+                <img src="../images/01.jpg" alt="image" />
+                <img src="../images/02.jpg" alt="image" />
+                <img src="../images/03.jpg" alt="image" />
+                <img src="../images/04.jpg" alt="image" />
+              </div>
+            </div>
           </th>
-        </tr>
-        <tr>
-          <th>
-            <pre>.헤더-미디엄</pre>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <h1 class="헤더-미디엄">미디엄 헤더</h1>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <pre>.헤더-스몰</pre>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <h1 class="헤더-스몰">스몰 헤더</h1>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <pre>.텍스트-센터</pre>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <p class="텍스트-센터">가운데 배치된 문자</p>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <pre>.텍스트-오른쪽</pre>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <p class="텍스트-오른쪽">오른쪽에 배치된 문자</p>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <pre>.텍스트-왼쪽</pre>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <p class="텍스트-왼쪽">왼쪽에 배치된 문자</p>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <pre>.텍스트-화이트</pre>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <p class="텍스트-화이트">흰색 문자</p>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <pre>.텍스트-블랙</pre>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <p class="텍스트-블랙">검정색 문자</p>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <pre>.볼드</pre>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <p class="볼드">굵은 문자</p>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <pre>.이태릭 체</pre>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <p class="이태리체">이텔릭 문자</p>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <pre>.캡</pre>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <p class="캡">캐피털 문자</p>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <pre>.대문자</pre>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <p class="대문자">대문자</p>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <pre>.소문자</pre>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <p class="소문자">소문자</p>
-          </th>
-        </tr>
-        <tr>
-          <th></th>
-        </tr>
-        <tr>
-          <th></th>
         </tr>
       </table>
     </div>
   </main>
+  <script src="../scripts/slideShow.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,50 @@
+.map-back {
+    background-image: url("../images/headerback.jpg");
+    padding: 0;
+}
+
+.faded-white {
+    background-color:rgba(167, 165, 165, 0.7);
+    padding: .5em;
+}
+
+main {
+    background-color: #000;
+    color: #fff;
+}
+
+.heading {
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+    background: rgb(203,197,148);
+    background: linear-gradient(90deg, rgb(63, 63, 60) 0%, rgba(93,86,48,1) 100%);
+}
+
+.back-black {
+    background-color: #000;
+}
+
+.border-1 {
+    border-top: none;
+}
+
+.navbar-full {
+    background: linear-gradient(90deg, rgb(63, 63, 60) 0%, rgba(93,86,48,1) 100%);
+}
+
+.padded-top {
+    padding-top: 5%;   
+}
+
+.grad-back {
+    background: linear-gradient(90deg, rgb(63, 63, 60) 0%, rgba(93,86,48,1) 100%);
+}
+
+#photos {
+    height: 85vh;
+}
+.my-container {
+    background: #000;
+    margin: 0 auto;
+    max-width: 900px;
+}

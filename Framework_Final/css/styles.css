@@ -58,6 +58,12 @@ span {
   clear: both;
 }
 
+@media print {
+  .no-print, .no-print * {
+    display: none !important;
+  }
+}
+
 .item-left {
   float: left;
   margin: 5px;
