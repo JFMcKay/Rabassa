@@ -1,0 +1,52 @@
+
+
+.navigation {
+    background-color: #dedede;
+
+}
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav li {
+    margin: block;
+    padding: 5em;
+}
+#nav nav {
+    height: 0;
+    overflow: hidden;
+}
+/**/
+body {
+    -webkit-animation: bugfix infinite 1s;
+}
+@-webkit-keyframes bugfix {
+    from {padding: 0;}
+    to {padding: 0;}
+}
+#nav input[type=checkbox] {
+    position: absolute;
+    top: -999em;
+    left-999em
+}
+#nav label {
+    display: block;
+    background-color: url(images/nav-icon.png)n0-repeat right center;
+    text-indent: -999em;
+    cursor; pointer;
+    -webkit-user-select:none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+@media screen and (min-width:500px) {
+    header h1 {
+        position: absolute;
+        z-index: 10;
+        color: #fff;
+        top: 50%;
+        left: 2%;
+    }
+}

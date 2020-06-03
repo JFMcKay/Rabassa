@@ -1,0 +1,13 @@
+header.navbar-full {
+    background-color: green;
+}
+.jumbotron-100 {
+    background-color: red;
+    margin-bottom: 20px;
+}
+div.column-3 {
+    text-align: center;
+}
+header {
+    margin-top: 5px;
+}

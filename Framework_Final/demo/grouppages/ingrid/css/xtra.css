@@ -1,0 +1,17 @@
+ .button-dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+}
+a {
+    color: white;
+}.box-this {
+background-color: none;
+}
+h1 {
+  color: whitesmoke;
+}
+div.column-3 {
+  text-align: center;
+}

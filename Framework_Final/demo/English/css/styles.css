@@ -29,6 +29,10 @@ span {
   font-family: "Open Sans", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #d2d7df;
+}
 .clearfix::after {
   content: " ";
   visibility: hidden;
